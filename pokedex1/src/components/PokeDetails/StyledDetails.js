@@ -18,6 +18,8 @@ export const DivPokeImage = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin:-20px;
+  
  
 `;
 
@@ -40,17 +42,18 @@ export const DivType = styled.div`
   display: flex;
   flex-direction: column;
   width: 350px;
-  height: 400px;
-  
+  margin-top:-350px;
   align-items: center;
 `;
 export const DivType2 = styled.div`
   display: flex;
-  width: 400px;
+  width: 350px;
   height: 50px;
+  margin:--100px;
   justify-content: space-around;
-  background-color: #e8f0f4;
+  background:linear-gradient(to right, #d4d3dd, #efefbb);
   color: #30a7d7;
   font-weight: bolder;
-  border-radius: 30px;
+  border-radius: 10px;
+  
 `;

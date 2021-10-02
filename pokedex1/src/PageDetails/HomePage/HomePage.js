@@ -42,7 +42,7 @@ export default function Home() {
           return (
             <PokeCard
               id={pokemon.id}
-              name={pokemon.name}
+              name={pokemon.name.toUpperCase()}
               img={pokemon.sprites.front_default}
               add={() => {
                 addPokemon(pokemon);
