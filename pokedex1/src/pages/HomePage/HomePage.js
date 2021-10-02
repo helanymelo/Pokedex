@@ -2,8 +2,10 @@ import React, { useContext } from "react";
 import GlobalStateContext from "../../Global/GlobalStateContext";
 import { useHistory } from "react-router-dom";
 import PokeCard from "../../Components/PokeCard/PokeCard";
-import { GridContainer, HomeDiv, Button  } from "./styledHomePage";
+import { GridContainer, HomeDiv  } from "./styledHomePage";
 import { goToPageDetails } from "../../Coordination/coordination";
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
 
 export default function Home() {
   const states = useContext(GlobalStateContext);
@@ -24,12 +26,14 @@ export default function Home() {
 
   return (
     <HomeDiv>
-      <Button  onClick = {() => states.setMaxPokemons(0)}>1</Button >
-      <Button  onClick = {() => states.setMaxPokemons(20)}>2</Button >
-      <Button  onClick = {() => states.setMaxPokemons(40)}>3</Button >
-      <Button  onClick = {() => states.setMaxPokemons(60)}>4</Button >
-      <Button  onClick = {() => states.setMaxPokemons(80)}>5</Button >
-      <Button  onClick = {() => states.setMaxPokemons(100)}>6</Button >
+      <ButtonGroup variant="text" aria-label="text button group">
+        <Button  onClick = {() => states.setMaxPokemons(0)}>1</Button>
+        <Button  onClick = {() => states.setMaxPokemons(20)}>2</Button >
+        <Button  onClick = {() => states.setMaxPokemons(40)}>3</Button>
+        <Button  onClick = {() => states.setMaxPokemons(60)}>4</Button >
+        <Button  onClick = {() => states.setMaxPokemons(80)}>5</Button >
+        <Button  onClick = {() => states.setMaxPokemons(100)}>6</Button >
+      </ButtonGroup>
 
     <GridContainer> 
       
