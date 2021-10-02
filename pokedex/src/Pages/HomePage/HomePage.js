@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 import PokeCard from "../../Components/PokeCard/PokeCard";
 import { GridContainer, HomeDiv, Button  } from "./styledHomePage";
 import { goToPageDetails } from "../../coordination/coordination";
+import SearchBox from "../../Components/SearchBox/SearchBox";
 
 export default function Home() {
   const states = useContext(GlobalStateContext);
@@ -17,12 +18,15 @@ export default function Home() {
     states.setPokemonList(newListPokemon);
   };
 
+  
+
   const getDetailsOfPokemon = (pokemon) => {
     states.setPokemonDetails(pokemon);
     goToPageDetails(history);
   };
 
   return (
+   
     <HomeDiv>
       <Button  onClick = {() => states.setMaxPokemons(0)}>1</Button >
       <Button  onClick = {() => states.setMaxPokemons(20)}>2</Button >
@@ -32,7 +36,7 @@ export default function Home() {
       <Button  onClick = {() => states.setMaxPokemons(100)}>6</Button >
 
     <GridContainer> 
-      
+         
       {states.pokemonList &&
         states.pokemonList.map((pokemon) => {
           return (

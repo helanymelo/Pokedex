@@ -11,6 +11,8 @@ export const DivContainerImage = styled.div`
   border-radius:5px;
   background:linear-gradient(to right, #d4d3dd, #efefbb);
   color: #000000;
+  
+  
 `;
 export const DivPokeImage = styled.div`
   height: 200px;
@@ -18,6 +20,7 @@ export const DivPokeImage = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin:-20px;
  
 `;
 

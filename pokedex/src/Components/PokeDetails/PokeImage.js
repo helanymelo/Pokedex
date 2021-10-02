@@ -12,7 +12,9 @@ export default function PokeImageDetails() {
   const pokemon = states.pokemonDetails;
   return (
     <DivContainerImage>
-      <DivPokeImage>
+      <p>{pokemon.name.toUpperCase()}</p>
+       
+      <DivPokeImage>        
         {pokemon.sprites.front_default && (
           <Img src={pokemon.sprites.front_default} />
         )}

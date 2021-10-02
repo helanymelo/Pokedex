@@ -5,6 +5,7 @@ export const GridContainer = styled.div`
   width: 95vw;
   flex-wrap: wrap;
   margin: auto;
+  margin-bottom: 20px;
   
 `
 

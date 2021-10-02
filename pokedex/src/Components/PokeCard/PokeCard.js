@@ -15,7 +15,7 @@ export default function PokeCard(props) {
   return (
     <DivCard id={props.id}>
       
-      <PokeName>{props.name}</PokeName>
+      <PokeName>{props.name.toUpperCase()}</PokeName>
       <PokeImage src={props.img}></PokeImage>
       <DivButtons>
         {history.location.pathname === "/pokedex" ? (
