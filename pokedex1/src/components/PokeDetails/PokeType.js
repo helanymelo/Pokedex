@@ -9,8 +9,8 @@ export default function PokeType () {
     
     return (
         <DivType2>
-             {pokemon.types[0] && <p>{pokemon.types[0].type.name}</p>}
-             {pokemon.types[1] && <p>{pokemon.types[1].type.name}</p>}
+             {pokemon.types[0] && <p>{pokemon.types[0].type.name.toUpperCase()}</p>}
+             {pokemon.types[1] && <p>{pokemon.types[1].type.name.toUpperCase()}</p>}
         </DivType2> 
     )
 
