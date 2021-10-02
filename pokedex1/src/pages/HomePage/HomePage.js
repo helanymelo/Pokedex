@@ -3,7 +3,7 @@ import GlobalStateContext from "../../Global/GlobalStateContext";
 import { useHistory } from "react-router-dom";
 import PokeCard from "../../Components/PokeCard/PokeCard";
 import { GridContainer, HomeDiv, Button  } from "./styledHomePage";
-import { goToPageDetails } from "../../coordination/coordination";
+import { goToPageDetails } from "../../Coordination/coordination";
 
 export default function Home() {
   const states = useContext(GlobalStateContext);

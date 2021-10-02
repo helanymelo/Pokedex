@@ -1,17 +1,16 @@
+import React from "react";
+import Router from "./Routes/Router";
+import GlobalState from "./Global/GlobalState";
 
-import Header from "./components/Header/Header";
-
-import Router from "./pages/Route/Router";
-
-function App(){
-  return(
+function App() {
+  return (
     <div>
-      <Header/>
-      <Router/>
+      <GlobalState>
+        <Router />
+      </GlobalState>
     </div>
-  )
+  );
 }
 
-export default App;
- 
+export default App; 
 
