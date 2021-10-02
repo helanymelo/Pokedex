@@ -59,7 +59,7 @@ export const HeaderDiv = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #d4d3dd;
+  
   @media(max-width: 540px){
     flex-direction: column;
     height: 10vh;
