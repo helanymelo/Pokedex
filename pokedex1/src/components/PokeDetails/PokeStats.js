@@ -8,11 +8,11 @@ export default function PokeStats() {
 
   return (
     <DivContainerImage>
-      <h1>Poderes</h1>
+      <p><strong>PODERES</strong></p>
       <DivDetails>
         {pokemon.status[0] && (
           <P>
-            <strong>hp:</strong>{pokemon.status[0].base_stat}
+            <strong>hp: </strong>{pokemon.status[0].base_stat}
           </P>
         )}
         {pokemon.status[1] && (
@@ -23,7 +23,7 @@ export default function PokeStats() {
         )}
         {pokemon.status[2] && (
           <P>
-            <strong>defense:</strong> <p>{" "}</p>
+            <strong>defense: </strong>{" "}
             {pokemon.status[2].base_stat}
           </P>
         )}

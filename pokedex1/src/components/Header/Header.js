@@ -26,9 +26,9 @@ export default function Header() {
       )}
       {history.location.pathname === "/" && <Title>Lista de Pokemons</Title>}
       {history.location.pathname === "/pokedex" && <Title>Pokedex</Title>}
-      {history.location.pathname === "/details" && (
+      {/* {history.location.pathname === "/details" && (
         <Title>{pokemon.name}</Title>
-      )}
+      )} */}
       {history.location.pathname === "/details" && (
         <Button2 onClick={() => goToPagePokedex(history)}>
           Ir para Pokedex
