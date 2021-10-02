@@ -3,7 +3,7 @@ import PokeCard from "../../Components/PokeCard/PokeCard";
 import GlobalStateContext from "../../Global/GlobalStateContext";
 import { PokedexContainer } from "./styledPokedexPage";
 import { useHistory } from "react-router-dom";
-import { goToPageDetails } from "../../coordination/coordination";
+import { goToPageDetails } from "../../Coordination/coordination";
 
 export default function Pokedex() {
   const states = useContext(GlobalStateContext);
