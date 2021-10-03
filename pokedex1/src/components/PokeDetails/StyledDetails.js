@@ -44,16 +44,19 @@ export const DivType = styled.div`
   width: 350px;
   margin-top:-350px;
   align-items: center;
+  margin-bottom: 140px;
 `;
 export const DivType2 = styled.div`
   display: flex;
   width: 350px;
   height: 50px;
-  margin:--100px;
+  
   justify-content: space-around;
   background:linear-gradient(to right, #d4d3dd, #efefbb);
-  color: #30a7d7;
+  color: #000000;
   font-weight: bolder;
+  margin-top:50px;
+  margin-bottom: 500px;
   border-radius: 10px;
   
 `;

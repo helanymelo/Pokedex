@@ -12,6 +12,7 @@ export const DivCard = styled.div `
     margin-top: 10px;
     border: 50px;
     border-radius:10px;
+    margin-bottom:20px;
 `
 export const DivButtons = styled.div `
     display: flex;
@@ -49,5 +50,5 @@ export const PokeImage = styled.img `
 
 export const PokeName = styled.h1 `
     font-size: 1.2em;
-    color: black ;
+    color: #000000 ;
 `

@@ -12,36 +12,36 @@ export default function PokeStats() {
       <DivDetails>
         {pokemon.status[0] && (
           <P>
-            <strong>hp: </strong>{pokemon.status[0].base_stat}
+            <strong>HP: </strong>{pokemon.status[0].base_stat}
           </P>
         )}
         {pokemon.status[1] && (
           <P>
-            <strong>attack:</strong>{" "}
+            <strong>ATTACK:</strong>{" "}
             {pokemon.status[1].base_stat}
           </P>
         )}
         {pokemon.status[2] && (
           <P>
-            <strong>defense: </strong>{" "}
+            <strong>DEFFENSE: </strong>{" "}
             {pokemon.status[2].base_stat}
           </P>
         )}
         {pokemon.status[3] && (
           <P>
-            <strong>special-attack:</strong>{" "}
+            <strong>SPECIAL-ATTACK:</strong>{" "}
             {pokemon.status[3].base_stat}
           </P>
         )}
         {pokemon.status[4] && (
           <P>
-            <strong>special-defense:</strong>{" "}
+            <strong>SPECIAL-DEFFENSE:</strong>{" "}
             {pokemon.status[4].base_stat}
           </P>
         )}
         {pokemon.status[5] && (
           <P>
-            <strong>speed:</strong>{" "}
+            <strong>SPEED: </strong>{" "}
             {pokemon.status[5].base_stat}
           </P>
         )}
