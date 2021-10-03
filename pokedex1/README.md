@@ -1,4 +1,4 @@
-#  🎵 Pokedex
+#  🎮 Pokedex
 
 A ideia central deste projeto é realizar uma integração com a [POKE API](https://pokeapi.co/) *Pokedex*. Ela é uma API pública, bastante utilizada como fonte de dados para aplicações focadas em aprendizado de programação.
 
@@ -13,8 +13,7 @@ A ideia central deste projeto é realizar uma integração com a [POKE API](http
 
 ---
 
-
-https://user-images.githubusercontent.com/71138743/131560631-f8d1dfc2-397f-436a-ab61-89e3567d48f5.mp4
+[https://user-images.githubusercontent.com/71138743/135774620-dd8d48d3-75de-44ed-96ec-8c87e510b622.mp4](https://user-images.githubusercontent.com/71138743/135774620-dd8d48d3-75de-44ed-96ec-8c87e510b622.mp4)
 
 
 
@@ -35,9 +34,9 @@ O projeto deve ter as seguintes **três páginas:**
 
 ## 🌎 Como acessar o projeto
 
-- [Link do surge](https://labefy-ale-johnson.surge.sh/)
+- [Link do surge](https://dispensable-feather.surge.sh/)
 
-## 🎼 API utilizada
+## 🔃 API utilizada
 
 - [Link Documentação API](https://pokeapi.co/docs/v2)
 
@@ -55,8 +54,8 @@ O projeto foi desenvolvido usando as seguintes tecnologias:
 
 ## 💾 Como baixar o projeto
 
-Primeiro instale o [Git](https://git-scm.com/), [Node.jS](https://nodejs.org/pt-br/download/) + [npm](https://www.npmjs.com/get-npm)
-bash
+Primeiro instale o [Git](https://git-scm.com/), [Node.Js](https://nodejs.org/pt-br/download/) + [npm](https://www.npmjs.com/get-npm)
+
 # Clonar o repositório
 git clone https://github.com/future4code/Johnson-pokedex1.git
 
@@ -73,5 +72,8 @@ npm install material ui
 
 # Rodar o projeto
 npm run start
+```
+
+
 
 Desenvolvido com 💙 por Alexandre, Ingrid, Helany.
