@@ -16,16 +16,21 @@ export const Title = styled.h1`
  
 `;
 export const Button = styled.button`
-  background-color: red;
-  border: none;
+  width: 148px;
+  height: 38px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
   outline: none;
-  color: white;
-  box-shadow: 1px 1px 1px #9999;
-  
+  transition: 1s ease-in-out;
+  font-size: 18px;
+  font-weight: 100;
+      
   :hover {
-    background-color: orangered;
-    border: none;
+   transition: 1s ease-in-out;
+   background: #4F95DA;
   }
+
   :active {
     box-shadow: none;
   }

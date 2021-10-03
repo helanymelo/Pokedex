@@ -9,9 +9,10 @@ export const DivContainerImage = styled.div`
   align-items: center;
   font-weight: bolder;
   border-radius:5px;
-  background:linear-gradient(to right, #d4d3dd, #efefbb);
-  color: #000000;
-`;
+  background-color: white;
+  box-shadow: 2px 2px 5px darkgray;
+  `;
+
 export const DivPokeImage = styled.div`
   height: 200px;
   width: 200px;
@@ -35,8 +36,8 @@ export const P = styled.p`
   font-weight: lighter;
 `;
 export const DivType = styled.div`
-  background:linear-gradient(to right, #d4d3dd, #efefbb);
-  color: #000000;
+  background-color: white;
+  box-shadow: 2px 2px 5px darkgray;
   font-weight: 500;
   border-radius: 5px;
   display: flex;
@@ -49,11 +50,10 @@ export const DivType = styled.div`
 export const DivType2 = styled.div`
   display: flex;
   width: 350px;
-  height: 50px;
-  
+  height: 50px;  
   justify-content: space-around;
-  background:linear-gradient(to right, #d4d3dd, #efefbb);
-  color: #000000;
+  background-color: white;
+  box-shadow: 2px 2px 5px darkgray;
   font-weight: bolder;
   margin-top:50px;
   margin-bottom: 500px;
