@@ -4,7 +4,8 @@ export const DivCard = styled.div `
     display: flex;
     width: 250px;
     height: 300px;
-    background:linear-gradient(to right, #d4d3dd, #efefbb);
+    background-color: white;
+    box-shadow: 2px 2px 5px darkgray;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
